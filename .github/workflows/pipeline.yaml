@@ -2,8 +2,8 @@ name: CI-pipeline
 
 on:
   push:
-      branches: [master]
-  # or 'main' if your repo uses main
+      branches: [main]
+  
 
 jobs:
   build:
